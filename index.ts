@@ -15,7 +15,6 @@ type TEducationDetails = {
   moreDetails?: string[];
 };
 type TEducation = {
-  intro: string;
   details: TEducationDetails[];
 };
 type TResume = {
@@ -40,7 +39,6 @@ var naseemInfo = (function () {
     profile:
       "Well, my name is Naseem Al-Qatamin, a passionate software developer who is striving to learn more.",
     education: {
-      intro: "Som,e intro goes here...",
       details: [
         {
           what: "Full Stack JS development - Boot Camp",
@@ -51,7 +49,7 @@ var naseemInfo = (function () {
         {
           what: "B.Sc Electrical Power Engineering",
           where: "Tafilah Technical University.",
-          when: "",
+          when: "Sep 2011 - Jun 2015",
           moreDetails: [
             "Top of the Class, GPA: 80.49%, Very Good.",
             "Graduation project: Dish Stirling Stirling Engine.",
